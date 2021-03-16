@@ -16,7 +16,7 @@ function add(){
     }
     ProjectManager.push(newProjectManager )
     sessionStorage.setItem('ProjectManager', JSON.stringify(ProjectManager));
-	alert("details added sucssfully");
+	alert("Details added sucessfully");
 	cleartext();
 
 	

@@ -2,9 +2,9 @@
 	text-align: center;
 }
 .hrefs{
-	font-size : 20px;
+	font-size : 21px;
 	text-align: center;
-	 width: 439px;
+	 width: 438px;
     height: 216px;
     border: 1px solid blue;
     margin-left: 446px;
@@ -13,7 +13,7 @@
 .datatable{
   border-collapse: collapse !important;
   width:100%;
-  text-align: center;
+  text-align:center;
 }
 .table {
   border-collapse: collapse;
