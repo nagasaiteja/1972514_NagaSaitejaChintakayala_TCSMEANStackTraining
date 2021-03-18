@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Blogs</title>
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="BlogHome.js"></script>
+<link rel="stylesheet" href="BlogHome.css">
+</head>
+<body>
+	
+
+	<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#resNav">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+	<div class="heading">
+    <a href="#" class="navbar-brand">Simply Blogging</a>
+	</div>
+  </div>
+  <br/>
+  <div class="collapse navbar-collapse" id="resNav">
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#">Add blog</a></li>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#"></a></li>
+    </ul>
+  </div>
+</nav>  <!-- End of Navigation Bar -->
+
+<!-- Jumbotron -->
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="jumbotron">
+         <div class="form-group">
+			<label for="usr" class="tilte">Title of Blog:</label>
+			<input type="text" class="form-control" id="title">
+		</div>
+		<div class="form-group">
+			<label for="comment">Article of Blog:</label>
+			<textarea class="form-control" rows="4" id="desc"></textarea>
+		</div>
+		<div>Upload image  :
+		<input type="file" id="img"  >
+		</div>
+		<br/>
+        <button type="btn" class="btn btn-primary" onclick="addBlog()">Add Blog</button>
+      </div>
+    </div>
+  </div>
+</div>  <!-- End of Jumbotron -->
+
+<!-- Simple Article -->
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="text-center">
+        <h3>Added blogs</h3>
+      </div>
+	  <div id="datas" class="addedblogs"></div>
+	  <div>
+		<div id="titles0"></div>
+		<div id="descs0"></div>
+		<img src="" id="uploading0"/>
+	  </div>
+    </div>
+  </div>
+</div>  <!-- End of Simple Article -->
+</body>
+</html>
