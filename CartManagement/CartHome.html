@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Blogs</title>
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="BlogHome.ts"></script>
+<link rel="stylesheet" href="BlogHome.css">
+</head>
+<body>
+	
+
+	<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#resNav">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+	<div class="heading">
+    <h2 class="heading">Shopping Page for Customers</h2>
+	</div>
+  </div>
+  <br/>
+ 
+</nav>  <!-- End of Navigation Bar -->
+
+
+<!-- Jumbotron -->
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="jumbotron">
+         <div class="form-group">
+			<label for="usr" class="tilte">Item name:</label>
+			<input type="text" class="form-control" id="title">
+		</div>
+		<div class="form-group">
+			<label for="comment">Price of Item:</label>
+			<input type="text" class="form-control" id="desc">
+		</div>
+		
+		<br/>
+        <button type="btn" class="btn btn-primary" onclick="addBlog()">Add Cart</button>
+      </div>
+    </div>
+  </div>
+</div>  <!-- End of Jumbotron -->
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+<div>Items added :</div>
+<div id="items"></div>
+<a class="checkbtn" href="checkout.html">Check out</a>
+</div></div></div>
+
+<!-- Simple Article -->
+ <!-- End of Simple Article -->
+</body>
+</html>
