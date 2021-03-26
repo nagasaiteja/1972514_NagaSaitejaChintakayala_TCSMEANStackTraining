@@ -1,0 +1,33 @@
+
+<div class="login-wrapper" fxLayout="row" fxLayoutAlign="center center">
+
+
+         <div class="form-group">
+			<label for="usr" class="tilte">Contact name:</label>
+			<input type="text" class="form-control" id="title">
+		</div>
+		<div class="form-group">
+			<label for="comment">Phone no:</label>
+			<input type="text" class="form-control" id="desc">
+		</div>
+		
+		<br/>
+        <button type="btn" class="btn btn-primary" (click)="addBlog()">Save</button>
+      
+   <!-- End of Jumbotron -->
+
+<!-- Simple Article -->
+<div class="out">
+      <div class="text-center">
+      </div>
+	  <div id="datas" class="addedblogs"></div>
+	  <div>
+		<div id="titles0" [(ngModel)] = "tiles" ngDefaultControl></div>
+		<div id="desc0"></div>
+    </div>
+	 
+</div>  <!-- End of Simple Article -->
+
+
+  
+  </div>
