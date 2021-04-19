@@ -1,0 +1,5 @@
+{ "Source": "A", "destination": "B", "Source_location":  "C", "destination_location": "D", "call_duration":"4:00:00", "call_charge" : "10" }
+{ "Source": "E", "destination": "F", "Source_location":  "G", "destination_location": "H", "call_duration":"4:00:00", "call_charge" : "10" }
+{ "Source": "t", "destination": "I", "Source_location":  "texas", "destination_location": "india", "call_duration":"4:00:00", "call_charge" : "10" }
+
+
